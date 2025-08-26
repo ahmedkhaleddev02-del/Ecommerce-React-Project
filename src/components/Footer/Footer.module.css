@@ -1,0 +1,18 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+}
+
+.footer span {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.footer span a {
+  display: inline-block;
+  margin-inline: 0.5rem;
+  color: green;
+  font-weight: 600;
+}
