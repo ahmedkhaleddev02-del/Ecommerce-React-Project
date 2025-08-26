@@ -12,7 +12,7 @@ export default function Checkout() {
       city: "",
     },
     onSubmit: () =>
-      handleCheckout(CartId, `${window.location.origin}/allorders`),
+      handleCheckout(CartId, window.location.origin),
   });
 
   async function handleCheckout(cartId, url) {
