@@ -33,7 +33,7 @@ export default function RecentProducts() {
       return toast.success(response.data.message);
     } else {
       setLoading(false);
-      return toast.error(response.data.message);
+      return toast.error(response?.data?.message ||'You must be Logged in to add to cart');
     }
   }
 
